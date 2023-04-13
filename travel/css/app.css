@@ -1,30 +1,40 @@
-html, body{
+
+html, body {
     margin: 0px;
+    background-image: linear-gradient(to bottom right, #95d9f9, #4bc391);
+    overflow-x: hidden;
 }
-header {
-    background-color: #16eb99;
-    color: #fff;
-    width: 98%;
-    height: 200px;
-    margin: 1%;
+h1 {
+    font-family: tahomas, sans-serif;
+    opacity: 60%;
+    position: absolute;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
-header h1{
+
+.globe {
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 60px;
-    font-size: 50px;
+    margin-top: 15px;
+}
+
+.globe_image {
+    height: 20vh;
+    
 }
 .wrapper {
-    background-color: #000000;
+    background-color: #3628b9;
     width: 100%;
-    height: 190px;
-    margin: 0%;
+    height: 150px;
+    margin-top: 20px;
+    padding: 1.5%;
+   
+   
 }
 .wrapper_2 {
-    background-color: #e1e890;
-    width: 98%;
+    background-color: #fff389;
+    width: 100%;
     height: 190px;
-    margin: 1%;
+    margin-top: 20px;
+    
 }
 .wrapper_2 .page{
     width: 20%;
@@ -53,19 +63,20 @@ footer p{
 .image_link:hover {
     filter: grayscale(70%);
 }
-.container {
+.cities {
     position: sticky;
     width: 100%;
-    max-width: 400px;
+    max-width: 460px;
+   
     float: left;
   }
   
-  .container img {
+  .cities img {
     width: 100%;
     height: 150px;
   }
   
-  .container .btn {
+  .cities .btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -81,7 +92,20 @@ footer p{
     text-align: center;
   }
   
-  .container .btn:hover {
-    background-color: black;
+  .cities .btn:hover {
+    background-color: rgb(141, 14, 14);
     color: white;
   }
+section {
+    text-align: center;
+    padding: 20px 40px;
+  }
+  
+  .base img {
+    width: 75%;
+    height: 800px;
+  }
+  .contain img {
+    object-fit: contain;
+  }
+  
