@@ -1,5 +1,3 @@
-/*t - top, l - left, c - colour, s - size, z - z-index, id - class */
-
 function first(t, l, c, s, z, id){
 	var first = document.getElementsByClassName(id);
 	first[0].style.top = t;
